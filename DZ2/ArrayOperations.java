@@ -1,4 +1,4 @@
-package Java_core;
+package DZ2;
 import java.util.Arrays;
 
 public class ArrayOperations {
@@ -40,18 +40,18 @@ public class ArrayOperations {
 
     public static void main(String[] args) {
         int[] array1 = {2, 1, 2, 3, 4};
-        System.out.println("РљРѕР»РёС‡РµСЃС‚РІРѕ С‡С‘С‚РЅС‹С… СЌР»РµРјРµРЅС‚РѕРІ: " + countEvens(array1));
+        System.out.println("Количество чётных элементов: " + countEvens(array1));
 
         int[] array2 = {2, 2, 0};
-        System.out.println("РљРѕР»РёС‡РµСЃС‚РІРѕ С‡С‘С‚РЅС‹С… СЌР»РµРјРµРЅС‚РѕРІ: " + countEvens(array2));
+        System.out.println("Количество чётных элементов: " + countEvens(array2));
 
         int[] array3 = {1, 3, 5};
-        System.out.println("РљРѕР»РёС‡РµСЃС‚РІРѕ С‡С‘С‚РЅС‹С… СЌР»РµРјРµРЅС‚РѕРІ: " + countEvens(array3));
+        System.out.println("Количество чётных элементов: " + countEvens(array3));
 
         int[] array4 = {1, 2, 3, 4, 5};
-        System.out.println("Р Р°Р·РЅРёС†Р° РјРµР¶РґСѓ СЃР°РјС‹Рј Р±РѕР»СЊС€РёРј Рё СЃР°РјС‹Рј РјР°Р»РµРЅСЊРєРёРј СЌР»РµРјРµРЅС‚Р°РјРё: " + maxMinDifference(array4));
+        System.out.println("Разница между самым большим и самым маленьким элементами: " + maxMinDifference(array4));
 
         int[] array5 = {0, 1, 2, 3, 4};
-        System.out.println("Р•СЃС‚СЊ Р»Рё РґРІР° СЃРѕСЃРµРґРЅРёС… РЅСѓР»СЏ: " + hasAdjacentZeros(array5));
+        System.out.println("Есть ли два соседних нуля: " + hasAdjacentZeros(array5));
     }
 }
