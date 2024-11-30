@@ -19,5 +19,5 @@ docker login
 docker build -t alexsksd/java-core-dz1 .
 docker push alexsksd/java-core-dz1:latest
 
-резкльтат
+результат
 https://hub.docker.com/repository/docker/alexsksd/java-core-dz1
